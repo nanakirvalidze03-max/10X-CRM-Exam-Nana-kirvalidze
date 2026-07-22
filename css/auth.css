@@ -1,0 +1,85 @@
+/* ავტორიზაციისა და რეგისტრაციის გვერდის ცენტრირება */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ავტორიზაციის ბარათი */
+.auth-container {
+    background-color: #262626;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.auth-container h2 {
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ველების ჯგუფები */
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.input-group input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #444444;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+/* ღილაკი */
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.auth-container button:hover {
+    background-color: #0056b3;
+}
+
+/* გადამისამართების ლინკი */
+.auth-redirect {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.auth-redirect a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-redirect a:hover {
+    text-decoration: underline;
+}
