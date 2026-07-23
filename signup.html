@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10X CRM - Sign Up</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+
+    <!-- ცენტრირებული ბარათი რეგისტრაციისთვის -->
+    <div class="auth-container">
+        <h2>Create your account</h2>
+        
+        <!-- ფორმა 5 ველით -->
+        <form id="signup-form">
+            
+            <div class="input-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="John Doe">
+                <span class="error-message" id="fullName-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="example@domain.com">
+                <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="company">Company (optional)</label>
+                <input type="text" id="company" placeholder="Company (optional)">
+                <span class="error-message" id="company-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••">
+                <span class="error-message" id="password-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="••••••••">
+                <span class="error-message" id="confirmPassword-error"></span>
+            </div>
+
+            <button type="submit">Create Account</button>
+        </form>
+
+        <p class="auth-redirect">
+            Already have an account? <a href="index.html">Log in</a>
+        </p>
+    </div>
+
+   
+</body>
+</html>
